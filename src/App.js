@@ -92,42 +92,53 @@ function App() {
         </div>
       </section>
 
-      <section className="sample_project  container  ">
+      <section className="sample_project_start  container  ">
         <div className="text ">
-          <div className="sample_project ">
+          <div className="sample_project_start ">
             Sample Projects
             <div b>
               <i class="fas fa-chevron-down fa-2x"></i>
             </div>
           </div>
-          <Container fluid>
-            <Row className="height1">
-              <Col md={8}>
+          <div className="container"></div>
+        </div>
+      </section>
+
+      <section className="container width ">
+        <div className="text   samle_project">
+          <Container className=" height100  ">
+            <Row className="height100  width100 ">
+              <Col md={6} className="r">
                 <img src={sample} alt="" />
               </Col>
-              <Col md={4}>
+              <Col md={6} className="r">
                 <h5>Ecommerce Website</h5>
                 Technologies:
-                <Row>React</Row>
-                <Row>Node.js</Row>
+                <Row className="justify-content-md-center">React</Row>
+                <Row className="justify-content-md-center">Node.js</Row>
                 <Row>
                   <Col>
-                    <Button>
-                      {" "}
-                      Website <a href="https://www.onlineshopsample.ca/"></a>
-                    </Button>
+                    <a
+                      href="https://www.onlineshopsample.ca/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <Button> Website</Button>
+                    </a>
                   </Col>
                   <Col>
-                    <Button>Github Link</Button>
+                    <a
+                      href="https://github.com/Ross-Ghazi/eCommerce-React-Nodejs"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <Button> GitHub Link</Button>
+                    </a>
                   </Col>
                 </Row>
               </Col>
             </Row>
           </Container>
-
-          <div className="container">
-            <div></div>
-          </div>
         </div>
       </section>
     </>
