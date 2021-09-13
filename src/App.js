@@ -113,7 +113,7 @@ function App() {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <img src={sample} alt="" />
+                  <img src={sample2} alt="" />
                 </a>
               </Col>
               <Col data-aos="fade-left" md={6} className="">
@@ -158,7 +158,7 @@ function App() {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <img src={sample2} alt="" />
+                  <img src={sample} alt="" />
                 </a>
               </Col>
               <Col data-aos="fade-left" md={6} className="">
