@@ -32,15 +32,17 @@ function App() {
         </div>
       </header>
 
-      <section data-aos="fade-up" className="about  container ">
+      <section data-aos="fade-up" className="about   container ">
         <div className=" width">
           <div className=" container">
             <i class="fas fa-address-card fa-2x"></i>
           </div>
-          <div className="text">
-            <div className="title">About me</div>I am a full stack software
+          <div className="text width20rem ">
+            <div className="title ">About me</div>I am a full stack software
             developer. I'm passionate about programming and learning new
-            technologies. Other than programming my main hobby is hiking.
+            technologies. I have a deep understanding of data structure and
+            algorithm. One of my favouraite hobbies are solving leetcode
+            problems. Other than programming my main hobby is hiking.
           </div>
         </div>
       </section>
@@ -55,36 +57,42 @@ function App() {
             <div className="title">Skills</div>
             <Container fluid>
               <Row className="height1">
-                <Col md={4}>
+                <Col className="height3rem" sm={12} md={4}>
                   {" "}
                   <i class="fab fa-html5"></i> HTML
                 </Col>
-                <Col md={4}>
+                <Col className="height3rem" sm={12} md={4}>
                   {" "}
                   <i class="fab fa-css3-alt"></i> CSS
                 </Col>
-                <Col md={4}>
+                <Col className="height3rem" sm={12} md={4}>
                   <i class="fab fa-github"></i> Git & GitHub
                 </Col>
               </Row>
               <Row className="height1">
-                <Col md={4}>
+                <Col className="height3rem" sm={12} md={4}>
                   {" "}
                   <i class="fab fa-python"></i> Python
                 </Col>
-                <Col md={4}>Django </Col>
-                <Col md={4}>
+                <Col className="height3rem" sm={12} md={4}>
+                  Django{" "}
+                </Col>
+                <Col className="height3rem" md={4}>
                   {" "}
                   <i class="fab fa-react"></i> React
                 </Col>
               </Row>
               <Row className="height1">
-                <Col md={4}>TypeScript</Col>
-                <Col md={4}>
+                <Col className="height3rem" md={4}>
+                  TypeScript
+                </Col>
+                <Col className="height3rem" md={4}>
                   {" "}
                   <i class="fab fa-node"></i> Node.js
                 </Col>
-                <Col md={4}>REST API</Col>
+                <Col className="height3rem" md={4}>
+                  REST API
+                </Col>
               </Row>
             </Container>
           </div>
@@ -147,6 +155,7 @@ function App() {
           </Container>
         </div>
       </section>
+      <div className="height6rem"></div>
       <section className="container width ">
         <div className="text   samle_project">
           <Container className=" height100  ">
