@@ -1,4 +1,5 @@
 import "./App.css";
+import react, { useEffect } from "react";
 import {
   Navbar,
   Container,
@@ -9,7 +10,14 @@ import {
   Button,
 } from "react-bootstrap";
 import sample from "./image/Sample.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <>
       <header>
@@ -23,7 +31,7 @@ function App() {
         </div>
       </header>
 
-      <section className="about  container ">
+      <section data-aos="fade-up" className="about  container ">
         <div className=" width">
           <div className=" container">
             <i class="fas fa-address-card fa-2x"></i>
@@ -36,7 +44,7 @@ function App() {
         </div>
       </section>
 
-      <section className="skills  container  ">
+      <section data-aos="fade-up" className="skills  container  ">
         <div className=" width2 ">
           <div className=" container">
             <i class="fas fa-laptop fa-2x"></i>
@@ -82,7 +90,7 @@ function App() {
         </div>
       </section>
 
-      <section className="sample_project_start  container  ">
+      <section data-aos="fade-up" className="sample_project_start  container  ">
         <div className="text ">
           <div className="sample_project_start ">
             Sample Projects
@@ -98,7 +106,7 @@ function App() {
         <div className="text   samle_project">
           <Container className=" height100  ">
             <Row className="height100  width100 ">
-              <Col md={6} className="">
+              <Col data-aos="fade-right" md={6} className="">
                 <a
                   href="https://www.onlineshopsample.ca"
                   target="_blank"
@@ -107,7 +115,7 @@ function App() {
                   <img src={sample} alt="" />
                 </a>
               </Col>
-              <Col md={6} className="">
+              <Col data-aos="fade-left" md={6} className="">
                 <h5>E-commerce Website</h5>
                 <h6>Technologies:</h6>
                 <Row className="justify-content-md-center">React</Row>
@@ -143,7 +151,7 @@ function App() {
         <div className="text   samle_project">
           <Container className=" height100  ">
             <Row className="height100  width100 ">
-              <Col md={6} className="">
+              <Col data-aos="fade-right" md={6} className="">
                 <a
                   href="https://www.onlineshopsample.ca"
                   target="_blank"
@@ -152,7 +160,7 @@ function App() {
                   <img src={sample} alt="" />
                 </a>
               </Col>
-              <Col md={6} className="">
+              <Col data-aos="fade-left" md={6} className="">
                 <h5>E-commerce Website</h5>
                 <h6>
                   Same frontend as above project but different backend and
