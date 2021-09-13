@@ -26,7 +26,6 @@ header {
 .header-text {
   position: absolute;
   top: 50%;
-  left: 20%;
   width: 1140px;
   animation: fadeInRight;
   animation-duration: 1s;
@@ -109,4 +108,11 @@ img {
 
 .width100 {
   width: 100%;
+}
+
+.spacer5rem {
+  height: 5rem;
+}
+.sandybrown {
+  color: sandybrown;
 }
