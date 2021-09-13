@@ -10,6 +10,7 @@ import {
   Button,
 } from "react-bootstrap";
 import sample from "./image/Sample.jpg";
+import sample2 from "./image/sample2.JPG";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -157,7 +158,7 @@ function App() {
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <img src={sample} alt="" />
+                  <img src={sample2} alt="" />
                 </a>
               </Col>
               <Col data-aos="fade-left" md={6} className="">
