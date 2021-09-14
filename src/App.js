@@ -26,7 +26,8 @@ function App() {
           <div className="header-text container ">
             <p>
               Hello and welcome to{" "}
-              <span className="different_color">R.Ghazi</span> porfolio webpage
+              <span className="different_color">Ross Ghazi</span> porfolio
+              webpage
             </p>
           </div>
         </div>
@@ -77,9 +78,8 @@ function App() {
                 <Col className="height3rem" sm={12} md={4}>
                   Django{" "}
                 </Col>
-                <Col className="height3rem" md={4}>
-                  {" "}
-                  <i class="fab fa-react"></i> React
+                <Col className="height3rem" sm={12} md={4}>
+                  JavaScript{" "}
                 </Col>
               </Row>
               <Row className="height1">
@@ -88,7 +88,20 @@ function App() {
                 </Col>
                 <Col className="height3rem" md={4}>
                   {" "}
-                  <i class="fab fa-node"></i> Node.js
+                  <i class="fab fa-node"></i> Node.js / express
+                </Col>
+                <Col className="height3rem" md={4}>
+                  {" "}
+                  <i class="fab fa-react"></i> React
+                </Col>
+              </Row>
+              <Row className="height1">
+                <Col className="height3rem" md={4}>
+                  MongoDB
+                </Col>
+                <Col className="height3rem" md={4}>
+                  {" "}
+                  PostgresSQL
                 </Col>
                 <Col className="height3rem" md={4}>
                   REST API
@@ -128,7 +141,7 @@ function App() {
                 <h6>Technologies:</h6>
                 <Row className="justify-content-md-center">React</Row>
                 <Row className="justify-content-md-center">Django (Python)</Row>
-                <Row className="justify-content-md-center">PostGreSQL</Row>
+                <Row className="justify-content-md-center">PostgreSQL</Row>
                 <Row>
                   <div className="spacer5rem"></div>
                   <Col>
