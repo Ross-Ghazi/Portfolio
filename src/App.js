@@ -42,8 +42,8 @@ function App() {
             <div className="title ">About me</div>I am a full stack software
             developer. I'm passionate about programming and learning new
             technologies. I have a deep understanding of data structure and
-            algorithm. One of my favouraite hobbies are solving leetcode
-            problems. Other than programming my main hobby is hiking.
+            algorithm. One of my favorite hobbies are solving leetcode problems.
+            Other than programming my main hobby is hiking.
           </div>
         </div>
       </section>
