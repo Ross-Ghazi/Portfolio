@@ -101,7 +101,7 @@ function App() {
                 </Col>
                 <Col className="height3rem" md={4}>
                   {" "}
-                  PostgresSQL
+                  PostgreSQL
                 </Col>
                 <Col className="height3rem" md={4}>
                   REST API
