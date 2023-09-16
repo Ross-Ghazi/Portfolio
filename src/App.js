@@ -1,14 +1,6 @@
 import "./App.css";
-import react, { useEffect } from "react";
-import {
-  Navbar,
-  Container,
-  Nav,
-  NavDropdown,
-  Row,
-  Col,
-  Button,
-} from "react-bootstrap";
+import { useEffect } from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import sample from "./image/Sample.jpg";
 import sample2 from "./image/sample2.JPG";
 import Aos from "aos";
@@ -42,7 +34,7 @@ function App() {
             <div className="title ">About me</div>I am a full stack software
             developer. I'm passionate about programming and learning new
             technologies. I have a deep understanding of data structure and
-            algorithm. One of my favorite hobbies are solving leetcode problems.
+            algorithm. One of my favorite hobbies are solving leetCode problems.
             Other than programming my main hobby is hiking.
           </div>
         </div>
@@ -124,7 +116,7 @@ function App() {
         </div>
       </section>
       <section className="container width ">
-        <div className="text   samle_project">
+        <div className="text   sample_project">
           <Container className=" height100  ">
             <Row className="height100  width100 ">
               <Col data-aos="fade-right" md={6} className="">
@@ -170,7 +162,7 @@ function App() {
       </section>
       <div className="height6rem"></div>
       <section className="container width ">
-        <div className="text   samle_project">
+        <div className="text   sample_project">
           <Container className=" height100  ">
             <Row className="height100  width100 ">
               <Col data-aos="fade-right" md={6} className="">
@@ -196,7 +188,7 @@ function App() {
                   <div className="spacer5rem"></div>
                   <Col>
                     <a
-                      href="https://e-commerce-react-nodejs.herokuapp.com/#/"
+                      href="https://ecommerce-3x9c.onrender.com/#/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
