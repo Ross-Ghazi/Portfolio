@@ -129,3 +129,9 @@ img {
 .height6rem {
   min-height: 3rem;
 }
+
+.imgeHeight {
+  height: 2rem;
+  display: inline;
+  margin-right: 0.5rem;
+}

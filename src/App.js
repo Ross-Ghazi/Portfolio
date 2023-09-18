@@ -5,6 +5,7 @@ import sample from "./image/Sample.jpg";
 import sample2 from "./image/sample2.JPG";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { AWS } from "./AWS";
 
 function App() {
   useEffect(() => {
@@ -104,6 +105,7 @@ function App() {
         </div>
       </section>
 
+      <AWS />
       <section data-aos="fade-up" className="sample_project_start  container  ">
         <div className="text ">
           <div className="sample_project_start ">
@@ -115,6 +117,58 @@ function App() {
           <div className="container"></div>
         </div>
       </section>
+      <section className="container width ">
+        <div className="text   sample_project">
+          <Container className=" height100  ">
+            <Row className="height100  width100 ">
+              <Col data-aos="fade-right" md={6} className="">
+                <a
+                  href="https://e-commerce-react-nodejs.herokuapp.com/#/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img src={sample2} alt="" />
+                </a>
+              </Col>
+              <Col data-aos="fade-left" md={6} className="">
+                <h5>E-commerce Website</h5>
+                <h6>
+                  Same frontend as above project but different backend and
+                  database
+                </h6>
+                <h6>Technologies:</h6>
+                <Row className="justify-content-md-center">
+                  React (Typescript)
+                </Row>
+                <Row className="justify-content-md-center">Node.js</Row>
+                <Row className="justify-content-md-center">MongoDb</Row>
+                <Row>
+                  <div className="spacer5rem"></div>
+                  <Col>
+                    <a
+                      href="https://ecommerce-3x9c.onrender.com/#/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <Button variant="warning"> Website</Button>
+                    </a>
+                  </Col>
+                  <Col>
+                    <a
+                      href="https://github.com/Ross-Ghazi/eCommerce-React-Nodejs"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      <Button variant="warning"> GitHub Link</Button>
+                    </a>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </section>
+      <div className="height6rem"></div>
       <section className="container width ">
         <div className="text   sample_project">
           <Container className=" height100  ">
@@ -148,56 +202,6 @@ function App() {
                   <Col>
                     <a
                       href="https://github.com/Ross-Ghazi/eCommerce-React-Django"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <Button variant="warning"> GitHub Link</Button>
-                    </a>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </section>
-      <div className="height6rem"></div>
-      <section className="container width ">
-        <div className="text   sample_project">
-          <Container className=" height100  ">
-            <Row className="height100  width100 ">
-              <Col data-aos="fade-right" md={6} className="">
-                <a
-                  href="https://e-commerce-react-nodejs.herokuapp.com/#/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  <img src={sample2} alt="" />
-                </a>
-              </Col>
-              <Col data-aos="fade-left" md={6} className="">
-                <h5>E-commerce Website</h5>
-                <h6>
-                  Same frontend as above project but different backend and
-                  database
-                </h6>
-                <h6>Technologies:</h6>
-                <Row className="justify-content-md-center">React</Row>
-                <Row className="justify-content-md-center">Node.js</Row>
-                <Row className="justify-content-md-center">MongoDb</Row>
-                <Row>
-                  <div className="spacer5rem"></div>
-                  <Col>
-                    <a
-                      href="https://ecommerce-3x9c.onrender.com/#/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      <Button variant="warning"> Website</Button>
-                    </a>
-                  </Col>
-                  <Col>
-                    <a
-                      href="https://github.com/Ross-Ghazi/eCommerce-React-Nodejs"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
