@@ -12,6 +12,11 @@ function App() {
     Aos.init({ duration: 2000 });
   }, []);
 
+  const smallerTextStyles = {
+    marginTop: "0.5rem",
+    fontSize: ".5em",
+  };
+
   return (
     <>
       <header>
@@ -132,10 +137,7 @@ function App() {
               </Col>
               <Col data-aos="fade-left" md={6} className="">
                 <h5>E-commerce Website</h5>
-                <h6>
-                  Same frontend as above project but different backend and
-                  database
-                </h6>
+
                 <h6>Technologies:</h6>
                 <Row className="justify-content-md-center">
                   React (Typescript)
@@ -152,6 +154,9 @@ function App() {
                     >
                       <Button variant="warning"> Website</Button>
                     </a>
+                    <div style={smallerTextStyles}>
+                      Note: It is slow to load as it is deployed on free server{" "}
+                    </div>
                   </Col>
                   <Col>
                     <a
@@ -184,6 +189,10 @@ function App() {
               </Col>
               <Col data-aos="fade-left" md={6} className="">
                 <h5>E-commerce Website</h5>
+                <h6>
+                  Same frontend as above project but different backend and
+                  database
+                </h6>
                 <h6>Technologies:</h6>
                 <Row className="justify-content-md-center">React</Row>
                 <Row className="justify-content-md-center">Django (Python)</Row>
