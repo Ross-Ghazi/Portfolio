@@ -12,11 +12,6 @@ function App() {
     Aos.init({ duration: 2000 });
   }, []);
 
-  const smallerTextStyles = {
-    marginTop: "0.5rem",
-    fontSize: ".5em",
-  };
-
   return (
     <>
       <header>
@@ -148,15 +143,12 @@ function App() {
                   <div className="spacer5rem"></div>
                   <Col>
                     <a
-                      href="https://ecommerce-3x9c.onrender.com/#/"
+                      href="https://ecommerce-node-js-b73721c93033.herokuapp.com/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
                       <Button variant="warning"> Website</Button>
                     </a>
-                    <div style={smallerTextStyles}>
-                      Note: It is slow to load as it is deployed on free server{" "}
-                    </div>
                   </Col>
                   <Col>
                     <a
